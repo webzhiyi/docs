@@ -1,0 +1,60 @@
+{
+    "navigation":
+    [
+        {
+            "text": "首页",
+            "target": "index.md",
+            "toc": false
+        },
+        {
+            "text": "下载",
+            "target": "downloads.md"
+        },
+        {
+            "text": "使用截图",
+            "target": "screenshots.md",
+            "toc": false
+        },
+        {
+            "text": "博客",
+            "target": "blogs/vx.json",
+            "navi": true,
+            "navi_expand_level": 1
+        },
+        {
+            "text": "文档",
+            "target": "docs/vx.json",
+            "navi": true,
+            "navi_index": "用户/欢迎使用.md",
+            "navi_expand_level": 1
+        },
+        {
+            "text": "VNoteX",
+            "target": "vnotex.md",
+            "toc": false
+        },
+        {
+            "text": "语言",
+            "children":
+            [
+                {
+                    "text": "English",
+                    "target": "../en_us/"
+                }
+            ]
+        }
+    ],
+    "actions":
+    [
+        {
+            "text": "GitHub",
+            "icon": "css/github.svg",
+            "target": "https://github.com/vnotex/vnote"
+        },
+        {
+            "text": "Slack",
+            "icon": "css/slack.svg",
+            "target": "https://join.slack.com/t/vnote/shared_invite/enQtNDg2MzY0NDg3NzI4LTQ1Yzk1YjA5MjAyYTU0MjJkMTUxNmRiYWQ2YjlkOWU0ZGZlMTFlZTAxNzg0ZGUyNzI0ZGY2NDg4MmU1M2FkMDg"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "navigation":
+    [
+        {
+            "text": "Home",
+            "target": "index.md",
+            "toc": false
+        },
+        {
+            "text": "Downloads",
+            "target": "downloads.md"
+        },
+        {
+            "text": "Screenshots",
+            "target": "screenshots.md",
+            "toc": false
+        },
+        {
+            "text": "Documentation",
+            "target": "docs/vx.json",
+            "navi": true,
+            "navi_index": "Users/Welcome.md",
+            "navi_expand_level": 1
+        },
+        {
+            "text": "VNoteX",
+            "target": "vnotex.md",
+            "toc": false
+        },
+        {
+            "text": "Language",
+            "children":
+            [
+                {
+                    "text": "中文 Chinese",
+                    "target": "../zh_cn/"
+                }
+            ]
+        }
+    ],
+    "actions":
+    [
+        {
+            "text": "GitHub",
+            "icon": "css/github.svg",
+            "target": "https://github.com/vnotex/vnote"
+        },
+        {
+            "text": "Slack",
+            "icon": "css/slack.svg",
+            "target": "https://join.slack.com/t/vnote/shared_invite/enQtNDg2MzY0NDg3NzI4LTQ1Yzk1YjA5MjAyYTU0MjJkMTUxNmRiYWQ2YjlkOWU0ZGZlMTFlZTAxNzg0ZGUyNzI0ZGY2NDg4MmU1M2FkMDg"
+        }
+    ]
+}
